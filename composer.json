@@ -1,10 +1,8 @@
 {
-    "name": "codicastudio/sortablemodel",
-    "description": "A noobs worthless garbage, just learning.",
-    "keywords": [
-        "worthless garabage by a noob."
-    ],
-    "homepage": "https://github.com/codicastudio/sortablemodel",
+    "name": "codica-studio/sortablemodel",
+    "description": "A random Codica Studio package.",
+
+    "homepage": "https://github.com/codica-studio/sortablemodel",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +13,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "illuminate/database": "^8.0",
         "illuminate/support": "^8.0"
     },
@@ -37,7 +35,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=no",
         "test": "vendor/bin/phpunit"
     },
     "extra": {
